@@ -1,0 +1,16 @@
+<!-- What is Two Way Binding in LWC?
+     LWC supports one-way binding by deafult i.e From Javascript we can assign values to HTML
+     But to get values from HTML to JS file we have to use data attribues like data-id/data-prop-value/lwc:ref 
+     This is know as two-way binding i.e from JS to HTML and HTML to JS
+-->
+
+<template>
+    <lightning-card title="Demo">
+        <div class="slds-m-around_medium">
+            <lightning-input label="First Name" value={firstName} lwc:ref="firstName" data-prop-name="firstName"></lightning-input>
+            <lightning-input label="Last Name" value={lastName} lwc:ref="lastName" data-prop-name="lastName"></lightning-input>
+            <lightning-input label="Phone" value={phone} lwc:ref="phone" data-prop-name="phone"></lightning-input>
+            <lightning-button label="Submit" onclick={submitHandler}></lightning-button>
+        </div>
+    </lightning-card>
+</template>
