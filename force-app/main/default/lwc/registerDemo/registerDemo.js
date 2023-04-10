@@ -7,15 +7,13 @@ export default class RegisterDemo extends LightningElement {
     phone="3245";
     submitHandler()
     {
-        //WAY - 1
-        // Get Values from HTML Using data-id attribute
+        //WAY - 1 Get Values from HTML Using data-id attribute
         // this.firstName = this.template.querySelector('[data-id="firstName"]').value;
         // this.lastName = this.template.querySelector('[data-id="lastName"]').value;
         // this.phone = this.template.querySelector('[data-id="phone"]').value;
 
 
-        //WAY - 2
-        //Get Values from HTML using data-prop-name attribute
+        //WAY - 2 Get Values from HTML using data-prop-name attribute
         //this.formData['firstName'] = this.template.querySelector('[data-prop-name="firstName"]').value;
         //this.formData['lastName'] = this.template.querySelector('[data-prop-name="lastName"]').value;
         //this.formData['phone'] = this.template.querySelector('[data-prop-name="phone"]').value;
@@ -26,7 +24,7 @@ export default class RegisterDemo extends LightningElement {
     //     this.formData[element.dataset.propName] = element.value;
     //    });
 
-      //Way 3: 
+      //Way 3: Get Values from HTML using lwc:ref attribute
       //  Individually Assign Values
        this.firstName = this.refs.firstName.value; // This is two way binding , i.e from HTML we are getting values in JS file
        this.lastName = this.refs.lastName.value;
