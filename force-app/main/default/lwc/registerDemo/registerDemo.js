@@ -19,13 +19,13 @@ export default class RegisterDemo extends LightningElement {
         //this.formData['phone'] = this.template.querySelector('[data-prop-name="phone"]').value;
 
       //Using Loop so we don't need to assign the values individually like we did above
-    //    let comp = this.template.querySelectorAll('[data-prop-name]');
-    //    comp.forEach(element=>{
-    //     this.formData[element.dataset.propName] = element.value;
-    //    });
+      //let comp = this.template.querySelectorAll('[data-prop-name]');
+      //comp.forEach(element=>{
+      // this.formData[element.dataset.propName] = element.value;
+      // });
 
       //Way 3: Get Values from HTML using lwc:ref attribute
-      //  Individually Assign Values
+      //Individually Assign Values
        this.firstName = this.refs.firstName.value; // This is two way binding , i.e from HTML we are getting values in JS file
        this.lastName = this.refs.lastName.value;
        this.phone = this.refs.phone.value;
