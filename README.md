@@ -2,7 +2,7 @@
 What is Two Way Binding in LWC?
 
 LWC supports one-way binding by deafult i.e From Javascript we can assign values to HTML.
-But to get values from HTML to JS file we have to use data attribues like data-id/data-prop-value/lwc:ref.
+But to get values from HTML to JS file we have to use attribues like data-id/data-prop-value/lwc:ref.
 This is know as two-way binding i.e from JS to HTML and HTML to JS
 
 
