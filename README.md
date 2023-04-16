@@ -10,4 +10,3 @@ This is know as two-way binding i.e from JS to HTML and HTML to JS
 
 ![image](https://user-images.githubusercontent.com/43552295/230909557-ec2108a3-beb6-4ff8-9cb5-8b870aef3d3c.png)
 
-https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmRkM2FkNWZiZTk0NWVhNDYzNmRlOWFjYzIyMDVlYzhlZTJjMTAzNyZjdD1n/bKpW1z0jthUjGK0WaM/giphy.gif
